@@ -31,7 +31,7 @@ app.register_blueprint(swagger_blueprint)
 api=Api(app)
 CORS(app) #permitiendo todos los metodos dominios y headers
 
-app.config['SQLALCHEMY_DATABASE_URI']='mysql://root:@localhost:3306/flasklibreria'
+app.config['SQLALCHEMY_DATABASE_URI']='mysql://q5qzv7sm5a4abifq:a8wq12b4qvr74boq@y6aj3qju8efqj0w1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/gvs1d2xdq64l5kdk'
 #para evitar el warning de funcionalidad de sqlalchemy de track :
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 bd.init_app(app)
